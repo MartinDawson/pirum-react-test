@@ -1,0 +1,88 @@
+[
+    {
+        "album": "Sun",
+        "band": "Cat Power",
+        "songs": [
+            "Always On My Own",
+            "3, 6, 9",
+            "Ruin",
+            "Manhattan",
+            "Sun",
+            "Real Life",
+            "Nothin But Time",
+            "Cherokee",
+            "Peace And Love",
+            "Silent Machine"
+        ]
+    },
+    {
+        "album": "Abbey Road",
+        "band": "Beatles",
+        "songs": [
+            "Here Comes the Sun",
+            "I Want You (She's So Heavy)",
+            "You Never Give Me Your Money",
+            "Octopus's Garden",
+            "Her Majesty",
+            "Come Together",
+            "Polythene Pam",
+            "Sun King",
+            "Mean Mr. Mustard",
+            "Because",
+            "Carry That Weight",
+            "The End",
+            "Golden Slumbers",
+            "Something",
+            "She Came in Through the Bathroom Window",
+            "Oh! Darling"
+        ]
+    },
+    {
+        "album": "Sun",
+        "band": "Thomas J. Bergersen",
+        "songs": [
+            "Final Frontier",
+            "Colors of Love",
+            "Dragonland",
+            "Two Hearts",
+            "Cassandra",
+            "Sun",
+            "New Life",
+            "In Paradisum",
+            "Cry",
+            "Empire of Angels",
+            "Creation of Earth",
+            "Starchild",
+            "Before Time",
+            "Always Mine",
+            "Fearless"
+        ]
+    },
+    {
+        "album": "Wishmaster",
+        "band": "Nightwish",
+        "songs": [
+            "Wanderlust",
+            "Deep Silent Complete",
+            "The Kinslayer",
+            "Come Cover Me",
+            "Two for Tragedy",
+            "She Is My Sin",
+            "FantasMic",
+            "Dead Boy's Poem",
+            "Crownless",
+            "Wishmaster"
+        ]
+    },
+    {
+        "album": "Yellow Submarine",
+        "band": "Beatles",
+        "songs": [
+            "Only a Northern Song",
+            "Hey Bulldog",
+            "It's All Too Much",
+            "All You Need Is Love",
+            "All Together Now"
+        ]
+    }
+]
