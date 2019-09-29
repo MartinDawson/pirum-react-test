@@ -16,7 +16,7 @@ const AlbumList: React.FC<IAlbumListProps> = ({
         <li 
             className={classnames(styles.albumList, expanded && styles.expanded)} 
         >
-            <div className={styles.albumNameWrapper}>
+            <div className={styles.nameWrapper}>
                 <div className={styles.albumName}>{musicAlbum.band} - {musicAlbum.album}</div>
                 <button className={styles.icon} onClick={() => setExpanded(!expanded)}></button>
             </div>

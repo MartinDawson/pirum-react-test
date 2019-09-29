@@ -1,0 +1,15 @@
+.nameWrapper {
+    display: flex;
+}
+
+.icon {
+    margin-left: 5px;
+}
+
+.musicList.expanded .icon:before {
+    content: '-';
+}
+
+.musicList:not(.expanded) .icon:before {
+    content: '+';
+}

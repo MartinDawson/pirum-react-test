@@ -20,9 +20,9 @@ const setup = (newProps?: IAlbumListProps) => {
 }
 
 describe('AlbumList', () => {
-    it('renders the band name & album in albumNameWrapper', () => {
+    it('renders the band name & album in nameWrapper', () => {
         const { wrapper, props} = setup();
-        const bandName = wrapper.find('.albumNameWrapper').find('.albumName');
+        const bandName = wrapper.find('.nameWrapper').find('.albumName');
 
         expect(bandName.text()).toBe(`${props.musicAlbum.band} - ${props.musicAlbum.album}`);
     });
@@ -30,7 +30,7 @@ describe('AlbumList', () => {
     it('renders the song names for each album when epanded is true', () => {
         const { wrapper } = setup();
         const songs: IMusicAlbum['songs'] = [];
-        const icon = wrapper.find('.albumNameWrapper').find('.icon');
+        const icon = wrapper.find('.nameWrapper').find('.icon');
 
         icon.simulate('click');
 
@@ -60,7 +60,7 @@ describe('AlbumList', () => {
 
     it('adds expanded className to albumList when expanded is true', () => {
         const { wrapper } = setup();
-        const icon = wrapper.find('.albumNameWrapper').find('.icon');
+        const icon = wrapper.find('.nameWrapper').find('.icon');
 
         icon.simulate('click');
 
@@ -76,9 +76,9 @@ describe('AlbumList', () => {
         expect(albumList.hasClass('expanded')).toBe(false);
     });
 
-    it('renders icon button in albumNameWrapper', () => {
+    it('renders icon button in nameWrapper', () => {
         const { wrapper } = setup();
-        const icon = wrapper.find('.albumNameWrapper').find('.icon');
+        const icon = wrapper.find('.nameWrapper').find('.icon');
 
         expect(icon.type()).toBe('button');
     });

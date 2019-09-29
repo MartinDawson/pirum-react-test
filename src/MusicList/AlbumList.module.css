@@ -1,4 +1,12 @@
-.albumNameWrapper {
+.albumList {
+    margin-bottom: 10px;
+}
+
+.songName {
+    margin-left: 20px;
+}
+
+.nameWrapper {
     display: flex;
 }
 
@@ -12,12 +20,4 @@
 
 .albumList:not(.expanded) .icon:before {
     content: '+';
-}
-
-.albumList {
-    margin-bottom: 10px;
-}
-
-.songName {
-    margin-left: 20px;
 }
